@@ -32,8 +32,6 @@ import AppFooter from "./components/app/Footer.vue"
 	name: "App"
 })
 export default class App extends Vue {
-	private drawer = false
-
 	beforeCreate() {
 		this.$vuetify.theme.dark = true
 	}
